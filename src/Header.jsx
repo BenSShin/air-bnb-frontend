@@ -29,9 +29,9 @@ export function Header() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Link
-              </a>
+              <button className="nav-link" href="#">
+                Leave a Review
+              </button>
             </li>
             <li className="nav-item dropdown">
               <a
