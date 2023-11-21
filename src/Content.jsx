@@ -38,6 +38,7 @@ export function Content() {
       <Login />
       <RoomsIndex rooms={room} />
       <SignUp />
+      <button onClick={handleUserReviews}>Leave a review</button>
       <Modal show={isUserReviewsVisible} onClose={handleClose}>
         <UserReviews />
       </Modal>
