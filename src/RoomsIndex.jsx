@@ -6,6 +6,8 @@ export function RoomsIndex(props) {
         <div key={room.room_id}>
           <h2>{room.description}</h2>
           <h3>{[room.city, room.state]}</h3>
+          <p>{room.total_bedrooms}</p>
+          <p>{room.total_bathrooms}</p>
           <h3>{room.price}</h3>
         </div>
       ))}
