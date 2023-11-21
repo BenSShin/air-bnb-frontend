@@ -2,7 +2,7 @@ import { RoomsIndex } from "./RoomsIndex";
 import { SignUp } from "./SignUp";
 
 export function Content() {
-  const rooms = [
+  const room = [
     {
       user_id: 1,
       address: "1313 Mockingbird Ln",
