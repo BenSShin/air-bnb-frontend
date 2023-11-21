@@ -1,6 +1,7 @@
 import { RoomsIndex } from "./RoomsIndex";
 import { SignUp } from "./SignUp";
 import { Login } from "./Login";
+import { UserReviews } from "./UserReviews";
 
 export function Content() {
   const room = [
@@ -25,6 +26,7 @@ export function Content() {
       <Login />
       <RoomsIndex rooms={room} />
       <SignUp />
+      <UserReviews />
     </main>
   );
 }
