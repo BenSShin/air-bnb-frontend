@@ -4,7 +4,7 @@ export function RoomsIndex(props) {
     <div>
       <h1>Available Rooms</h1>
       {props.rooms.map((room) => (
-        <div key={room.room_id}>
+        <div key={room.id}>
           <h2>{room.description}</h2>
           <h3>
             {room.city}, {room.state}
