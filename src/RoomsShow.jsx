@@ -24,7 +24,9 @@ export function RoomsShow(props) {
           End Date: <input type="date" />
         </div>
         <div>
-          <button type="submit">Reserve</button>
+          <button type="submit" className="btn btn-outline-danger">
+            Reserve
+          </button>
         </div>
       </form>
     </div>

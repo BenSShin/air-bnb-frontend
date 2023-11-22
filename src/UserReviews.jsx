@@ -16,7 +16,9 @@ export function UserReviews() {
           Rating: <input name="rating" type="integer" />
         </div>
         <div>
-          <button type="submit">Submit your review</button>
+          <button type="submit" className="btn btn-outline-danger">
+            Submit your review
+          </button>
         </div>
       </form>
     </div>
