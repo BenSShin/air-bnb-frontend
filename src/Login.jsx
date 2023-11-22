@@ -40,10 +40,16 @@ export function Login() {
         <div className="col">
           <form onSubmit={handleSubmit}>
             <div>
-              <input type="email" className="form-control" placeholder="Email" aria-label="email" />
+              <input name="email" type="email" className="form-control" placeholder="Email" aria-label="email" />
             </div>
             <div>
-              <input type="password" className="form-control" placeholder="Password" aria-label="password" />
+              <input
+                name="password"
+                type="password"
+                className="form-control"
+                placeholder="Password"
+                aria-label="password"
+              />
             </div>
             <button type="submit" className="btn btn-outline-danger">
               Login

@@ -102,9 +102,7 @@ export function Content() {
       <Modal show={isRoomsShowVisible} onClose={handleShowClose}>
         <RoomsShow room={currentRoom} />
       </Modal>
-      <button onClick={handleUserReviews} className="btn btn-outline-danger">
-        Leave a review
-      </button>
+      <button onClick={handleUserReviews}>Leave a review</button>
       <Modal show={isUserReviewsVisible} onClose={handleClose}>
         <UserReviews />
       </Modal>
