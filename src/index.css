@@ -3,16 +3,10 @@ html {
   scroll-behavior: smooth;
 }
 
-#signup {
-  text-align: fixed;
-  margin-left: 300px;
-  padding: 35px;
+#signupform {
 }
 
 #login {
-  text-align: left;
-  margin-left: 300px;
-  padding: 35px;
 }
 
 #rooms-index {
