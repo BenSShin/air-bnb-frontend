@@ -18,7 +18,6 @@ export function Header() {
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
-          className="btn btn-outline-danger"
         >
           <span className="navbar-toggler-icon"></span>
         </button>

@@ -32,16 +32,23 @@ export function SignUp() {
         <div className="col">
           <form onSubmit={handleSubmit}>
             <div>
-              <input type="name" className="form-control" placeholder="Name" aria-label="name" />
+              <input name="name" type="name" className="form-control" placeholder="Name" aria-label="name" />
             </div>
             <div>
-              <input type="email" className="form-control" placeholder="Email" aria-label="email" />
-            </div>
-            <div>
-              <input type="password" className="form-control" placeholder="Password" aria-label="password" />
+              <input name="email" type="email" className="form-control" placeholder="Email" aria-label="email" />
             </div>
             <div>
               <input
+                name="password"
+                type="password"
+                className="form-control"
+                placeholder="Password"
+                aria-label="password"
+              />
+            </div>
+            <div>
+              <input
+                name="password confirmation"
                 type="password"
                 className="form-control"
                 placeholder="Password confirmation"
