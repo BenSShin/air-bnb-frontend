@@ -5,6 +5,7 @@ import { UserReviews } from "./UserReviews";
 import { Modal } from "./Modal";
 import { useState } from "react";
 import { RoomsShow } from "./RoomsShow";
+import { LogoutLink } from "./LogoutLink";
 
 export function Content() {
   const [isUserReviewsVisible, setIsUserReviewsVisible] = useState(false);
@@ -107,6 +108,7 @@ export function Content() {
       <Modal show={isUserReviewsVisible} onClose={handleClose}>
         <UserReviews />
       </Modal>
+      <LogoutLink />
     </main>
   );
 }
