@@ -45,7 +45,9 @@ export function Login() {
             <div>
               <input type="password" className="form-control" placeholder="Password" aria-label="password" />
             </div>
-            <button type="submit">Login</button>
+            <button type="submit" className="btn btn-outline-danger">
+              Login
+            </button>
           </form>
         </div>
       </div>
